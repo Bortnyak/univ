@@ -7,7 +7,7 @@ namespace Lab2
     {
         static void Main(string[] args)
         {
-            MyThread1 thread = new MyThread1("Potok №1");
+            MyThread thread = new MyThread("Potok №1");
             MyThread2 thread2 = new MyThread2("Potok №2");
 
             do
